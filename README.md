@@ -6,15 +6,12 @@ Dotfiles I use for different programs:
 - tmux
 - oh-my-zsh
 
-Also, some scripts I use are included under `bin/`.
-
-Dotfiles are versioned using [git](https://git-scm.com/) and configured via [dotbot](https://github.com/anishathalye/dotbot).
+Dotfiles are versioned using [git](https://git-scm.com/) and configured via [chezmoi](https://chezmoi.io).
 
 # How to install
 
 ```shell
-git clone <this-repository-url>
-mv dotfiles .dotfiles
-cd .dotfiles
-./install
+chezmoi init https://github.com/Giako/dotfiles.git
+chezmoi apply
+chezmoi update
 ```
