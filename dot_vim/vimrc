@@ -24,6 +24,7 @@ Plug 'tpope/vim-sensible'
 Plug 'godlygeek/tabular'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
+Plug 'codota/tabnine-vim'
 
 call plug#end()
 

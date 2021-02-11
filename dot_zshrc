@@ -8,16 +8,16 @@ antigen bundle lein
 antigen bundle kubectl
 antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle kube-ps1
 antigen theme robbyrussell
 antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle jonmosco/kube-ps1
 antigen apply
 
-export PATH="/usr/local/sbin:$PATH"
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:/usr/local/sbin:$PATH"
 export GPG_ID=giako@giako.dev
 export GPG_TTY=`tty`
 export TERM=xterm-256color
-PROMPT=$PROMPT'$(kube_ps1) '
+PROMPT='$(kube_ps1)'$PROMPT
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
