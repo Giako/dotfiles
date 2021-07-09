@@ -8,7 +8,7 @@ antigen bundle lein
 antigen bundle kubectl
 antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
-antigen theme robbyrussell
+antigen theme dracula/zsh dracula
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle jonmosco/kube-ps1
 antigen apply

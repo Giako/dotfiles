@@ -1,2 +1,10 @@
 imap jk <Esc> 
 set ideajoin
+set incsearch
+set scrolloff=5
+map Q gq
+
+"extension
+set surround
+set NERDTree
+set commentary
