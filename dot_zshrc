@@ -21,7 +21,7 @@ antigen theme dracula/zsh dracula
 
 antigen apply
 
-export PATH="${KREW_ROOT:-$HOME/.krew}/bin:/usr/local/sbin:$PATH"
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$HOME/bin:$PATH"
 export GPG_ID=giako@giako.dev
 export GPG_TTY=`tty`
 export TERM=xterm-256color
