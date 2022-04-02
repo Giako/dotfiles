@@ -11,7 +11,7 @@ endif
 " Vim-plug support
 call plug#begin('~/.vim/plugged')
 
-Plug 'sjl/badwolf'
+Plug 'dracula/vim',{'as':'dracula'}
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
@@ -30,7 +30,7 @@ call plug#end()
 
 " Colors
 syntax enable " enable syntax processing
-colorscheme badwolf " set colorscheme
+colorscheme dracula " set colorscheme
 set termguicolors
 
 " Spaces and tabs
