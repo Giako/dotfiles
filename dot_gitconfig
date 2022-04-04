@@ -1,7 +1,11 @@
 [user]
-	email = giako@giako.dev
+	email = Giako@users.noreply.github.com
 	name = Giacomo Russo
 	signingkey = 0F4E81EAE2FDF753
+
+[includeIf "gitdir:~/src/stentle/"]
+    path = .gitconfig-stentle
+
 [push]
 	default = simple
 [core]
