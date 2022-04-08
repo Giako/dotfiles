@@ -12,7 +12,8 @@ antigen bundle sdk
 antigen bundle ubuntu
 antigen bundle vscode
 
-antigen bundle lukechilds/zsh-nvm
+antigen bundle ptavares/zsh-sdkman@main
+antigen bundle cowboyd/zsh-volta@v1
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -26,7 +27,3 @@ export GPG_ID=giako@giako.dev
 export GPG_TTY=`tty`
 export TERM=xterm-256color
 PROMPT='$(kube_ps1)'$PROMPT
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
