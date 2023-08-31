@@ -6,7 +6,8 @@ export DEBIAN_FRONTEND=noninteractive
 sudo apt-get update
 sudo apt-get install -y \
     zsh \
-    zsh-antigen
+    zsh-antigen \
+    tmux
 
 ZSH_PATH=$(which zsh)
 export ZSH_PATH
