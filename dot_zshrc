@@ -13,10 +13,10 @@ antigen bundle ubuntu
 antigen bundle vscode
 
 antigen bundle ptavares/zsh-sdkman@main
-antigen bundle cowboyd/zsh-volta@v1
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle lukechilds/zsh-nvm
 
 antigen theme dracula/zsh dracula
 
