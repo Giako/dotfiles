@@ -6,8 +6,6 @@ antigen bundle command-not-found
 antigen bundle docker
 antigen bundle gh
 antigen bundle git
-antigen bundle kube-ps1
-antigen bundle kubectl
 antigen bundle sdk
 antigen bundle ubuntu
 antigen bundle vscode
@@ -22,8 +20,8 @@ antigen theme dracula/zsh dracula
 
 antigen apply
 
-export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$HOME/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
 export GPG_ID=giako@giako.dev
 export GPG_TTY=`tty`
 export TERM=xterm-256color
-PROMPT='$(kube_ps1)'$PROMPT
+
